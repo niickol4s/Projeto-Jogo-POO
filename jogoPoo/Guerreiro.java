@@ -21,7 +21,7 @@ public class Guerreiro extends Personagem {
         int dano = this.forca;
         alvo.setVida(alvo.getVida() - dano);
 
-        System.out.println(getNome() + " atacou " + alvo.getNome() + " causando " + dano + " de dano mágico");
+        System.out.println(getNome() + " atacou " + alvo.getNome() + " causando " + dano + " de dano com espada.");
 
         if (alvo.getVida() <= 0) {
             System.out.println(alvo.getNome() + " foi derrotado.");

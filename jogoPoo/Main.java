@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Guerreiro guerreiro = new Guerreiro("Sir Arthur Dayne, o Lâmina Dourada", 20, 5);
-        Mago mago = new Mago("Magnus, o Sombra Branca", 20, 5);
+        Guerreiro guerreiro = new Guerreiro("Sir Eric HightStone, o Lâmina Dourada", 20, 5);
+        Mago mago = new Mago("Malachar, o Sombra Branca", 20, 5);
 
         int opcao;
 

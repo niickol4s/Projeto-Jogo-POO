@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         Guerreiro guerreiro = new Guerreiro("Sir Eric HightStone, o Lâmina Dourada", 20, 5);
         Mago mago = new Mago("Malachar, o Sombra Branca", 20, 5);
 
@@ -55,7 +56,8 @@ public class Main {
                     System.out.println("----<*>----");
                     System.out.println(" História ");
                     System.out.println("----<*>----");
-                    System.out.println("\nEm um continente devastado pela guerra, poderosos reinos e povos travam uma disputa mortal \n pelo domínio de suas terras e pelo controle de poderes ancestrais.");
+                    System.out.println("\nEm um continente devastado pela guerra, poderosos reinos e povos travam uma disputa mortal");
+                    System.out.println("pelo domínio de suas terras e pelo controle de poderes ancestrais.");
                     break;
                 default:
                     System.out.println("\nOpção inválida.");

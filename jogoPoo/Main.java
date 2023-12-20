@@ -30,6 +30,9 @@ public class Main {
 
                     guerreiro.atacar(mago);
                     System.out.println(guerreiro.getNome() + " - Vida: " + guerreiro.getVida() + ", Força: " + guerreiro.getForca() + "\n");
+
+                    mago.atacar(mago);
+                    System.out.println(mago.getNome() + " - Vida: " + mago.getVida() + ", Magia: " + mago.getMagia() + "\n");
                     break;
                 case 2:
                     System.out.println("\nHistória\n");

@@ -16,9 +16,13 @@ public class Guerreiro extends Personagem {
 
     @Override
     public void atacar(Personagem alvo) {
-        // Ataque do Lutador leva em consideração a força
         int dano = this.forca;
         alvo.setVida(alvo.getVida() - dano);
-        System.out.println(getNome() + " atacou " + alvo.getNome() + " causando " + dano + " de dano");
+
+        System.out.println(getNome() + " atacou " + alvo.getNome() + " causando " + dano + " de dano mágico");
+
+        if (alvo.getVida() <= 0) {
+            System.out.println(alvo.getNome() + " foi derrotado.");
+        }
     }
 }

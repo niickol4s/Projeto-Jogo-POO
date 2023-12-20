@@ -2,6 +2,7 @@ public class Personagem {
     private String nome;
     private int vida;
 
+    // Construtor
     public Personagem(String nome, int vida) {
         this.nome = nome;
         this.vida = vida;
@@ -23,6 +24,7 @@ public class Personagem {
         return vida;
     }
 
+    // Polimorfismo de Sobrescrita de Métodos
     public void atacar(Personagem alvo) {
         System.out.println(nome + " atacou " + alvo.getNome());
     }

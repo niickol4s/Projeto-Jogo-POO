@@ -1,6 +1,7 @@
 public class Mago extends Personagem {
     private int magia;
 
+    // Construtor
     public Mago(String nome, int vida, int magia) {
         super(nome, vida);
         this.magia = magia;
@@ -14,6 +15,7 @@ public class Mago extends Personagem {
         return magia;
     }
 
+    // Polimorfismo de Sobrescrita de Métodos
     @Override
     public void atacar(Personagem alvo) {
         int dano = this.magia;

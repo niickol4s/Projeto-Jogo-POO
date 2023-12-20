@@ -24,7 +24,7 @@ public class Mago extends Personagem {
         System.out.println(getNome() + " atacou " + alvo.getNome() + " causando " + dano + " de dano mágico.");
 
         if (alvo.getVida() <= 0) {
-            System.out.println(alvo.getNome() + " foi derrotado.");
+            System.out.println("\n" + alvo.getNome() + " foi derrotado.\n");
         }
     }
 
